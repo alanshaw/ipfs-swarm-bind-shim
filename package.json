@@ -1,0 +1,33 @@
+{
+  "name": "ipfs-swarm-bind-shim",
+  "version": "0.0.0",
+  "description": "A poor mans shim for a missing swarm.bind command",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "lint": "standard"
+  },
+  "keywords": [
+    "ipfs",
+    "peer",
+    "connect",
+    "bind",
+    "friend",
+    "persist",
+    "reconnect"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "array-shuffle": "^1.0.1",
+    "debug": "^4.1.1",
+    "multiaddr": "^7.1.0"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "ipfs": "^0.38.0",
+    "ipfsd-ctl": "^0.47.2",
+    "nyc": "^14.1.1",
+    "standard": "^14.3.1"
+  }
+}
