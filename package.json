@@ -1,6 +1,6 @@
 {
   "name": "ipfs-swarm-bind-shim",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A poor mans shim for a missing swarm.bind command",
   "main": "index.js",
   "scripts": {
